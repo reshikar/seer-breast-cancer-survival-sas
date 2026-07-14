@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_cox_phreg",
+  "source_file": "code/survival_analysis.sas",
+  "source_blob_sha": "c0a9f9e0b81e728d2539c4990a69175f2784cc99",
+  "source_commit": "e61903f5499bd6dbe12ee3c061aadcf383c59773",
+  "notes": "Cox proportional-hazards (PROC PHREG) on combined EP with ESTIMATE statements for pairwise hazard ratios vs ER-/PR-, plus the ER-by-PR chi-square, run verbatim against shape-matched mock SEER data."
+}

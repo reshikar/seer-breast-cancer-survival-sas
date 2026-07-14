@@ -1,0 +1,42 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260714T043649Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA work.sdata
+
+NOTE: Processing inline DATALINES (70 lines)
+
+NOTE: Read 70 rows from DATALINES.
+NOTE: Wrote work.sdata (70 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA work.data1
+
+
+NOTE: Read 70 rows from work.sdata.
+NOTE: Wrote work.data1 (70 rows, 13 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FORMAT library=WORK
+
+NOTE: FORMAT cat defined (4 ranges).
+NOTE: FORMAT stat defined (2 ranges).
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_ep.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_race.spec.json
+NOTE: ODS plot written: freq_marital_status.spec.json
+NOTE: ODS plot written: freq_grade.spec.json
+NOTE: ODS plot written: freq_a_stage.spec.json
+NOTE: ODS plot written: freq_estrogen_status.spec.json
+NOTE: ODS plot written: freq_progesterone_status.spec.json
+NOTE: ODS plot written: freq_ep.spec.json
+NOTE: ODS plot written: freq_status.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_status.spec.json
+NOTE: PROC FREQ statement used.

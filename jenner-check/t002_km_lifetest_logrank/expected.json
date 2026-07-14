@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-14T05:29:13Z",
+  "_captured_run_id": "r_3a5edb56e0cc4bba8c1a8ce2549a8796",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote work.data1 (70 rows, 13 columns).",
+    "NOTE: PROC LIFETEST data=work.data1",
+    "NOTE: PROC LIFETEST completed."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

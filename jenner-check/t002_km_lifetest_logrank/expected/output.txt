@@ -1,0 +1,261 @@
+    The LIFETEST Procedure    
+
+                             N
+--------------------  --------
+Total                       70
+Event                       29
+Censored                    41
+Median Survival Time   41.5000
+
+      Stratum: EP = 1.0       
+
+                             N
+--------------------  --------
+Total                       19
+Event                        6
+Censored                    13
+Median Survival Time   64.0000
+
+               Product-Limit Survival Estimates                
+
+    Time  Survival  Std Error  Number at Risk  Number of Events
+--------  --------  ---------  --------------  ----------------
+ 16.0000    0.9412     0.0571              17                 1
+ 40.0000    0.8556     0.0967              11                 1
+ 41.0000    0.7701     0.1190              10                 1
+ 56.0000    0.6600     0.1441               7                 1
+ 61.0000    0.5500     0.1566               6                 1
+ 64.0000    0.4400     0.1593               5                 1
+
+Stratum: EP = 2.0 
+
+                 N
+--------  --------
+Total           19
+Event            8
+Censored        11
+
+               Product-Limit Survival Estimates                
+
+    Time  Survival  Std Error  Number at Risk  Number of Events
+--------  --------  ---------  --------------  ----------------
+ 18.0000    0.9444     0.0540              18                 1
+ 31.0000    0.7674     0.1021              16                 3
+ 37.0000    0.7083     0.1100              13                 1
+ 38.0000    0.6493     0.1156              12                 1
+ 42.0000    0.5903     0.1192              11                 1
+ 54.0000    0.5313     0.1210              10                 1
+
+      Stratum: EP = 3.0       
+
+                             N
+--------------------  --------
+Total                       15
+Event                        6
+Censored                     9
+Median Survival Time   61.0000
+
+               Product-Limit Survival Estimates                
+
+    Time  Survival  Std Error  Number at Risk  Number of Events
+--------  --------  ---------  --------------  ----------------
+  6.0000    0.9333     0.0644              15                 1
+ 20.0000    0.8615     0.0911              13                 1
+ 21.0000    0.7897     0.1081              12                 1
+ 44.0000    0.6910     0.1322               8                 1
+ 60.0000    0.5183     0.1795               4                 1
+ 61.0000    0.3455     0.1850               3                 1
+
+      Stratum: EP = 4.0       
+
+                             N
+--------------------  --------
+Total                       17
+Event                        9
+Censored                     8
+Median Survival Time   48.0000
+
+               Product-Limit Survival Estimates                
+
+    Time  Survival  Std Error  Number at Risk  Number of Events
+--------  --------  ---------  --------------  ----------------
+  3.0000    0.9412     0.0571              17                 1
+ 18.0000    0.8739     0.0837              14                 1
+ 20.0000    0.8067     0.1007              13                 1
+ 25.0000    0.7395     0.1125              12                 1
+ 30.0000    0.6723     0.1207              11                 1
+ 43.0000    0.5762     0.1364               7                 1
+ 48.0000    0.4802     0.1436               6                 1
+ 51.0000    0.3842     0.1434               5                 1
+ 60.0000    0.1921     0.1536               2                 1
+
+         Test of Equality over Strata          
+
+Test      Chi-Square        DF  Pr > Chi-Square
+--------  ----------  --------  ---------------
+log-rank      3.7774         3           0.2865
+
+    The LIFETEST Procedure    
+
+                             N
+--------------------  --------
+Total                       70
+Event                       29
+Censored                    41
+Median Survival Time   41.5000
+
+Stratum: Estrogen_Status = Negative
+
+                             N
+--------------------  --------
+Total                       32
+Event                       15
+Censored                    17
+Median Survival Time   60.0000
+
+               Product-Limit Survival Estimates                
+
+    Time  Survival  Std Error  Number at Risk  Number of Events
+--------  --------  ---------  --------------  ----------------
+  3.0000    0.9688     0.0308              32                 1
+  6.0000    0.9365     0.0435              30                 1
+ 18.0000    0.9018     0.0540              27                 1
+ 20.0000    0.8324     0.0686              26                 2
+ 21.0000    0.7977     0.0740              24                 1
+ 25.0000    0.7630     0.0785              23                 1
+ 30.0000    0.7267     0.0827              21                 1
+ 43.0000    0.6783     0.0903              15                 1
+ 44.0000    0.6298     0.0960              14                 1
+ 48.0000    0.5814     0.1001              13                 1
+ 51.0000    0.5329     0.1028              12                 1
+ 60.0000    0.3553     0.1233               6                 2
+ 61.0000    0.2665     0.1203               4                 1
+
+Stratum: Estrogen_Status = Positive
+
+                 N
+--------  --------
+Total           38
+Event           14
+Censored        24
+
+               Product-Limit Survival Estimates                
+
+    Time  Survival  Std Error  Number at Risk  Number of Events
+--------  --------  ---------  --------------  ----------------
+ 16.0000    0.9714     0.0282              35                 1
+ 18.0000    0.9429     0.0392              34                 1
+ 31.0000    0.8453     0.0639              29                 3
+ 37.0000    0.8115     0.0697              25                 1
+ 38.0000    0.7762     0.0751              23                 1
+ 40.0000    0.7409     0.0795              22                 1
+ 41.0000    0.7057     0.0832              21                 1
+ 42.0000    0.6704     0.0862              20                 1
+ 54.0000    0.6309     0.0897              17                 1
+ 56.0000    0.5915     0.0923              16                 1
+ 61.0000    0.5493     0.0949              14                 1
+ 64.0000    0.5070     0.0966              13                 1
+
+         Test of Equality over Strata          
+
+Test      Chi-Square        DF  Pr > Chi-Square
+--------  ----------  --------  ---------------
+log-rank      2.0619         1           0.1510
+
+    The LIFETEST Procedure    
+
+                             N
+--------------------  --------
+Total                       70
+Event                       29
+Censored                    41
+Median Survival Time   41.5000
+
+      Stratum: EP = 1.0       
+
+                             N
+--------------------  --------
+Total                       19
+Event                        6
+Censored                    13
+Median Survival Time   64.0000
+
+               Product-Limit Survival Estimates                
+
+    Time  Survival  Std Error  Number at Risk  Number of Events
+--------  --------  ---------  --------------  ----------------
+ 16.0000    0.9412     0.0571              17                 1
+ 40.0000    0.8556     0.0967              11                 1
+ 41.0000    0.7701     0.1190              10                 1
+ 56.0000    0.6600     0.1441               7                 1
+ 61.0000    0.5500     0.1566               6                 1
+ 64.0000    0.4400     0.1593               5                 1
+
+Stratum: EP = 2.0 
+
+                 N
+--------  --------
+Total           19
+Event            8
+Censored        11
+
+               Product-Limit Survival Estimates                
+
+    Time  Survival  Std Error  Number at Risk  Number of Events
+--------  --------  ---------  --------------  ----------------
+ 18.0000    0.9444     0.0540              18                 1
+ 31.0000    0.7674     0.1021              16                 3
+ 37.0000    0.7083     0.1100              13                 1
+ 38.0000    0.6493     0.1156              12                 1
+ 42.0000    0.5903     0.1192              11                 1
+ 54.0000    0.5313     0.1210              10                 1
+
+      Stratum: EP = 3.0       
+
+                             N
+--------------------  --------
+Total                       15
+Event                        6
+Censored                     9
+Median Survival Time   61.0000
+
+               Product-Limit Survival Estimates                
+
+    Time  Survival  Std Error  Number at Risk  Number of Events
+--------  --------  ---------  --------------  ----------------
+  6.0000    0.9333     0.0644              15                 1
+ 20.0000    0.8615     0.0911              13                 1
+ 21.0000    0.7897     0.1081              12                 1
+ 44.0000    0.6910     0.1322               8                 1
+ 60.0000    0.5183     0.1795               4                 1
+ 61.0000    0.3455     0.1850               3                 1
+
+      Stratum: EP = 4.0       
+
+                             N
+--------------------  --------
+Total                       17
+Event                        9
+Censored                     8
+Median Survival Time   48.0000
+
+               Product-Limit Survival Estimates                
+
+    Time  Survival  Std Error  Number at Risk  Number of Events
+--------  --------  ---------  --------------  ----------------
+  3.0000    0.9412     0.0571              17                 1
+ 18.0000    0.8739     0.0837              14                 1
+ 20.0000    0.8067     0.1007              13                 1
+ 25.0000    0.7395     0.1125              12                 1
+ 30.0000    0.6723     0.1207              11                 1
+ 43.0000    0.5762     0.1364               7                 1
+ 48.0000    0.4802     0.1436               6                 1
+ 51.0000    0.3842     0.1434               5                 1
+ 60.0000    0.1921     0.1536               2                 1
+
+Test of Equality over Strata (Adjustment: BON) 
+
+Test      Chi-Square        DF  Pr > Chi-Square
+--------  ----------  --------  ---------------
+log-rank      3.7774         3           0.2865
+

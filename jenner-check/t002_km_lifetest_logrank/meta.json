@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_km_lifetest_logrank",
+  "source_file": "code/survival_analysis.sas",
+  "source_blob_sha": "c0a9f9e0b81e728d2539c4990a69175f2784cc99",
+  "source_commit": "e61903f5499bd6dbe12ee3c061aadcf383c59773",
+  "notes": "Kaplan-Meier (PROC LIFETEST, method=km) stratified by EP receptor group plus Bonferroni-adjusted log-rank test, run verbatim against shape-matched mock SEER data."
+}

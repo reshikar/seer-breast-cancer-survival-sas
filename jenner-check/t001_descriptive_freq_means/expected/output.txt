@@ -1,0 +1,82 @@
+                                                   The FREQ Procedure
+
+                                                     Cumulative    Cumulative
+EP                         Frequency    Percent     Frequency      Percent
+--------------------------------------------------------------------------------
+Both Positive (ER+/PR+)           19     27.14           19        27.14
+ER+ / PR-                         19     27.14           38        54.29
+ER- / PR+                         15     21.43           53        75.71
+Both Negative (ER-/PR-)           17     24.29           70       100.00
+                                                   The FREQ Procedure
+
+                                   Cumulative    Cumulative
+Race     Frequency    Percent     Frequency      Percent
+--------------------------------------------------------------
+Black           27     38.57           27        38.57
+Other           21     30.00           48        68.57
+White           22     31.43           70       100.00
+
+                                            Cumulative    Cumulative
+Marital_Status    Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------------
+Divorced                  7     10.00            7        10.00
+Married                  20     28.57           27        38.57
+Single                   26     37.14           53        75.71
+Widowed                  17     24.29           70       100.00
+
+                                   Cumulative    Cumulative
+Grade    Frequency    Percent     Frequency      Percent
+--------------------------------------------------------------
+1               14     20.00           14        20.00
+2               14     20.00           28        40.00
+3               20     28.57           48        68.57
+4               22     31.43           70       100.00
+
+                                      Cumulative    Cumulative
+A_Stage     Frequency    Percent     Frequency      Percent
+-----------------------------------------------------------------
+Distant            35     50.00           35        50.00
+Regional           35     50.00           70       100.00
+
+                                             Cumulative    Cumulative
+Estrogen_Status    Frequency    Percent     Frequency      Percent
+------------------------------------------------------------------------
+Negative                  32     45.71           32        45.71
+Positive                  38     54.29           70       100.00
+
+                                                 Cumulative    Cumulative
+Progesterone_Status    Frequency    Percent     Frequency      Percent
+----------------------------------------------------------------------------
+Negative                      36     51.43           36        51.43
+Positive                      34     48.57           70       100.00
+
+                                                     Cumulative    Cumulative
+EP                         Frequency    Percent     Frequency      Percent
+--------------------------------------------------------------------------------
+Both Positive (ER+/PR+)           19     27.14           19        27.14
+ER+ / PR-                         19     27.14           38        54.29
+ER- / PR+                         15     21.43           53        75.71
+Both Negative (ER-/PR-)           17     24.29           70       100.00
+
+                                    Cumulative    Cumulative
+Status    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------
+Alive            41     58.57           41        58.57
+Dead             29     41.43           70       100.00
+                                                  The MEANS Procedure
+
+ Variable                     Mean     Std Dev      Median
+ ---------------------------------------------------------
+ Age                         56.16       16.81       59.00
+ Tumor_Size                  45.64       26.29       42.50
+ Survival_Months             46.60       28.06       41.50
+ Reginol_Node_Positive       14.07        7.09       15.00
+ ---------------------------------------------------------
+
+                                                   The FREQ Procedure
+
+                                    Cumulative    Cumulative
+Status    Frequency    Percent     Frequency      Percent
+---------------------------------------------------------------
+Alive            41     58.57           41        58.57
+Dead             29     41.43           70       100.00

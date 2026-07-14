@@ -1,0 +1,69 @@
+        The PHREG Procedure        
+
+Criterion                     Value
+----------------------  -----------
+Number of Observations           70
+Number of Events                 29
+-2 LOG L                    196.731
+Convergence Status      0 Converged
+
+      Testing Global Null Hypothesis: BETA=0      
+
+Test              Chi-Square        DF  Pr > ChiSq
+----------------  ----------  --------  ----------
+Likelihood Ratio     14.4299         9      0.1078
+Wald                 13.4975         9      0.1414
+Score (Log-Rank)     14.6321         9      0.1016
+
+                                         Analysis of Maximum Likelihood Estimates                                          
+
+Parameter                    DF  Estimate  Standard Error  Chi-Square  Pr > ChiSq  Hazard Ratio  95% Lower CL  95% Upper CL
+---------------------  --------  --------  --------------  ----------  ----------  ------------  ------------  ------------
+Age                           1   0.02391         0.01340      3.1850      0.0743         1.024         0.998         1.051
+RACE_BLACK                    1  -0.57410         0.52786      1.1829      0.2768         0.563         0.200         1.585
+RACE_OTHER                    1   0.36100         0.50128      0.5186      0.4714         1.435         0.537         3.832
+A_STAGE_DISTANT               1   0.87510         0.46228      3.5834      0.0584         2.399         0.970         5.937
+Tumor_Size                    1  -0.00433         0.00844      0.2632      0.6079         0.996         0.979         1.012
+Reginol_Node_Positive         1  -0.02367         0.02975      0.6332      0.4262         0.977         0.921         1.035
+EP_1                          1  -1.09220         0.57641      3.5904      0.0581         0.335         0.108         1.038
+EP_2                          1  -0.79459         0.59123      1.8062      0.1790         0.452         0.142         1.439
+EP_3                          1  -0.66377         0.57644      1.3259      0.2495         0.515         0.166         1.594
+
+                                     Estimates                                      
+
+Label                               Estimate  Standard Error  Chi-Square  Pr > ChiSq
+----------------------------------  --------  --------------  ----------  ----------
+HR: EP1 (ER+/PR+) vs EP4 (ER-/PR-)  -1.09220         0.57641      3.5904      0.0581
+HR: EP2 (ER+/PR-) vs EP4 (ER-/PR-)  -0.79459         0.59123      1.8062      0.1790
+HR: EP3 (ER-/PR+) vs EP4 (ER-/PR-)  -0.66377         0.57644      1.3259      0.2495
+
+                                                   The FREQ Procedure
+
+Table of Progesterone_Status by Estrogen_Status
+
+Progesterone_Status |  Negative |  Positive |      Total
+--------------------+-----------+-----------+-----------
+Negative            |        17 |        19 |         36
+                    |     24.29 |     27.14 |      51.43
+                    |     47.22 |     52.78 |     100.00
+                    |     53.12 |     50.00 |      51.43
+--------------------+-----------+-----------+-----------
+Positive            |        15 |        19 |         34
+                    |     21.43 |     27.14 |      48.57
+                    |     44.12 |     55.88 |     100.00
+                    |     46.88 |     50.00 |      48.57
+--------------------+-----------+-----------+-----------
+Total               |        32 |        38 |         70
+
+Statistics for Table of Progesterone_Status by Estrogen_Status
+
+Statistic                                DF  Value         Prob
+--------------------------------------------------------------
+Chi-Square                                1 0.0679       0.7944
+Likelihood Ratio Chi-Square               1 0.0679       0.7944
+Fisher's Exact Test                                      0.8101
+
+Phi Coefficient                      0.0311
+Contingency Coefficient              0.0311
+Cramer's V                           0.0311
+
