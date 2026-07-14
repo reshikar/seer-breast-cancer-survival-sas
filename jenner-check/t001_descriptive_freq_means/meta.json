@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_descriptive_freq_means",
+  "source_file": "code/survival_analysis.sas",
+  "source_blob_sha": "c0a9f9e0b81e728d2539c4990a69175f2784cc99",
+  "source_commit": "e61903f5499bd6dbe12ee3c061aadcf383c59773",
+  "notes": "Descriptive section (PROC FREQ over categoricals + PROC MEANS over numerics) run verbatim against mock SEER data matching the column shape the source reads from data_raw/SEER.csv."
+}

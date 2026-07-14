@@ -1,0 +1,19 @@
+{
+  "_captured_at": "2026-07-14T05:29:13Z",
+  "_captured_run_id": "r_10615ed0077a44ee9532e6112b695e83",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote work.data1 (70 rows, 13 columns).",
+    "NOTE: PROC PHREG data=work.data1",
+    "NOTE: PROC FREQ statement used."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}
